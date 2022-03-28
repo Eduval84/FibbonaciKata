@@ -10,8 +10,6 @@ So what will be your task? You should write a function `fib`, that takes one par
 
 For example fib(0) returns 0, fib(4) returns 3, fib(15) returns 610.
 
-Online calculator: http://php.bubble.ro/fibonacci/
-
 
 ## Expected behaviour
 ```
