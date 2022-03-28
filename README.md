@@ -1,7 +1,5 @@
 # Fibonacci kata
 
-https://www.codewars.com/kata/fibonacci-number
-
 [**Fibonacci number**](https://en.wikipedia.org/wiki/Fibonacci_number) (Fibonacci sequence), named after mathematician Fibonacci, is a sequence of numbers that looks like this:
 
 `0, 1, 1, 2, 3, 5, 8, 11,...`
