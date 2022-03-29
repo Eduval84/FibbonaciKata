@@ -11,5 +11,10 @@ namespace FibbonaciKata
         public static void Main(string[] args)
         {
         }
+
+        public static object CalculateFibonacci(int i)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
