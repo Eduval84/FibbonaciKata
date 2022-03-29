@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FibbonaciKata
 {
-    public class Program
+    public class Fibonacci
     {
         public static void Main(string[] args)
         {

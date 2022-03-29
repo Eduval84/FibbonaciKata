@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibbonaciKata", "FibbonaciKata.csproj", "{DD5B27EE-69A7-4B01-9361-959DC7B07D60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciKata", "FibonacciKata.csproj", "{DD5B27EE-69A7-4B01-9361-959DC7B07D60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFibbonaciKata", "..\TestFibbonaciKata\TestFibbonaciKata.csproj", "{C1447AFE-BD63-4721-8DA1-4D1F5CBCC268}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFibonacciKata", "..\TestFibbonaciKata\TestFibonacciKata.csproj", "{C1447AFE-BD63-4721-8DA1-4D1F5CBCC268}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
