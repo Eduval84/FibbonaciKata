@@ -1,0 +1,7 @@
+C:\Users\evalderrama\source\Cursos\Exeal\FibbonaciKata\FibbonaciKata\bin\Debug\FibbonaciKata.exe.config
+C:\Users\evalderrama\source\Cursos\Exeal\FibbonaciKata\FibbonaciKata\bin\Debug\FibbonaciKata.exe
+C:\Users\evalderrama\source\Cursos\Exeal\FibbonaciKata\FibbonaciKata\bin\Debug\FibbonaciKata.pdb
+C:\Users\evalderrama\source\Cursos\Exeal\FibbonaciKata\FibbonaciKata\obj\Debug\FibonacciKata.csproj.AssemblyReference.cache
+C:\Users\evalderrama\source\Cursos\Exeal\FibbonaciKata\FibbonaciKata\obj\Debug\FibonacciKata.csproj.CoreCompileInputs.cache
+C:\Users\evalderrama\source\Cursos\Exeal\FibbonaciKata\FibbonaciKata\obj\Debug\FibbonaciKata.exe
+C:\Users\evalderrama\source\Cursos\Exeal\FibbonaciKata\FibbonaciKata\obj\Debug\FibbonaciKata.pdb

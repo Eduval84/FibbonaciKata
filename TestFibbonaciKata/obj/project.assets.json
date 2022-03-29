@@ -1709,6 +1709,15 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "FibonacciKata/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/FibonacciKata.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FibonacciKata.dll": {}
+        }
       }
     }
   },
@@ -6034,10 +6043,16 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "FibonacciKata/1.0.0": {
+      "type": "project",
+      "path": "../FibbonaciKata/FibonacciKata.csproj",
+      "msbuildProject": "../FibbonaciKata/FibonacciKata.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "FibonacciKata >= 1.0.0",
       "FluentAssertions >= 6.5.1",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "coverlet.collector >= 3.0.2",
@@ -6077,7 +6092,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\evalderrama\\source\\Cursos\\Exeal\\FibbonaciKata\\FibbonaciKata\\FibonacciKata.csproj": {
+              "projectPath": "C:\\Users\\evalderrama\\source\\Cursos\\Exeal\\FibbonaciKata\\FibbonaciKata\\FibonacciKata.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
