@@ -12,9 +12,9 @@ namespace FibbonaciKata
         {
         }
 
-        public static object CalculateFibonacci(int i)
+        public static string CalculateFibonacci(int i)
         {
-            throw new NotImplementedException();
+            return "0";
         }
     }
 }
