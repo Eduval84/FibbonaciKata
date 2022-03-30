@@ -14,7 +14,9 @@ namespace FibbonaciKata
 
         public static string CalculateFibonacci(int i)
         {
-            return "0";
+            if (i == 0)
+                return "0";
+            return "1";
         }
     }
 }
