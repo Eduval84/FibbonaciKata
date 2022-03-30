@@ -11,7 +11,7 @@ namespace TestFibbonaciKata
         {
             var fib = Fibonacci.CalculateFibonacci(0);
 
-            fib.Should().Be("0");
+            fib.Should().Be(0);
         }
 
         [Fact]
@@ -19,7 +19,7 @@ namespace TestFibbonaciKata
         {
             var fib = Fibonacci.CalculateFibonacci(1);
 
-            fib.Should().Be("1");
+            fib.Should().Be(1);
         }
 
         [Fact]
@@ -27,7 +27,7 @@ namespace TestFibbonaciKata
         {
             var fib = Fibonacci.CalculateFibonacci(2);
 
-            fib.Should().Be("1");
+            fib.Should().Be(1);
         }
 
         [Fact]
@@ -35,7 +35,7 @@ namespace TestFibbonaciKata
         {
             var fib = Fibonacci.CalculateFibonacci(3);
 
-            fib.Should().Be("2");
+            fib.Should().Be(2);
         }
 
 
