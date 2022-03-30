@@ -9,10 +9,13 @@ namespace FibbonaciKata
 {
     public class Fibonacci
     {
-        private static long Fib0 = 0;
-        private static long Fib1 = 1;
-        private static long FibToSearch = 0;
-        public static StringBuilder FibSerie { get; set; }
+
+        private static StringBuilder FibSerie { get; set; }
+
+        public static string getFibSerie()
+        {
+            return FibSerie.ToString();
+        }
 
         public static void Main(string[] args)
         {
@@ -20,11 +23,16 @@ namespace FibbonaciKata
 
         public static int CalculateFibonacci(int num)
         {
+            long Fib0 = 0;
+            long Fib1 = 1;
+
+            FibSerie?.Clear();
+
             if (num == 0) return 0;
             if (num <= 2) return 1;
 
             FibSerie = new StringBuilder();
-       
+
             for (int i = 0; i < num; i++)
             {
                 if (i == 0)
@@ -32,7 +40,7 @@ namespace FibbonaciKata
                     FibSerie.Append(0.ToString());
                 }
 
-                FibToSearch = Fib0;
+                var FibToSearch = Fib0;
                 Fib0 = Fib1;
                 Fib1 = FibToSearch + Fib0;
                 FibSerie.Append(",");
@@ -40,7 +48,6 @@ namespace FibbonaciKata
             }
 
             return int.Parse(FibSerie.ToString().Split(',').Last());
-            
         }
     }
 }
