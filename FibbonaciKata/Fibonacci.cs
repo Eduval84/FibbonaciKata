@@ -21,6 +21,7 @@ namespace FibbonaciKata
         public static int CalculateFibonacci(int num)
         {
             if (num == 0) return 0;
+            if (num <= 2) return 1;
 
             FibSerie = new StringBuilder();
        
@@ -38,10 +39,8 @@ namespace FibbonaciKata
                 FibSerie.Append(Fib0.ToString());
             }
 
-        
-            if (num <= 2) return 1;
-
-            return 2;
+            return int.Parse(FibSerie.ToString().Split(',').Last());
+            
         }
     }
 }
